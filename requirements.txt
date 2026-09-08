@@ -1,0 +1,18 @@
+# Core: prediction and evaluation
+openai>=1.0
+pandas>=2.0
+openpyxl>=3.1          # pandas Excel engine for the .xlsx benchmark files
+numpy>=1.24
+tqdm>=4.65
+
+# scripts/run_calculator.py -- symbolic evaluation of extracted expressions
+sympy>=1.12
+
+# Retrieval settings (standard / summary / interact / inlinesearch).
+# Only needed for a local encoder; --encoder text-embedding-3-large uses the
+# OpenAI API instead and needs nothing extra.
+sentence-transformers>=2.7
+
+# Only needed by scripts/eval_citation.py (the ALCE-derived metrics)
+nltk>=3.8
+rouge-score>=0.1.2

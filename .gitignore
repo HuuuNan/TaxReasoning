@@ -1,0 +1,26 @@
+# Credentials -- never commit
+.env
+
+# Benchmark data is distributed separately (see data/README.md)
+data/*.xlsx
+
+# Archived original scripts, kept locally only
+legacy/
+
+# Run outputs
+results/
+*.score
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+~$*.xlsx
+index/
