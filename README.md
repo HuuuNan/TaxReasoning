@@ -7,18 +7,15 @@ The benchmark pairs tax computation problems with the specific
 regulations needed to solve them. Because those regulations are amended over
 time, a model must apply the version in force rather than a memorised rate.
 
-Work in progress — this repository currently holds the evaluation code only.
+This repository currently holds the evaluation code only.
 Benchmark data is distributed separately, see [data/README.md](data/README.md).
 
 ## Setup
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env      # fill in your keys
-set -a && source .env && set +a
 ```
 
-API keys are read from the environment only.
 
 ## Methods
 
