@@ -28,9 +28,8 @@ One row per regulation document, with columns `ID`, `regulation_title`,
 
 ### Splits
 
-The development set is the public split. Gold answers for the 753-question test
-set are withheld to limit contamination, and evaluation on it runs through an
-online submission platform.
+The development set is the public split. Gold answers for the test
+set are withheld to limit contamination.
 
 ### Checking your copy
 
