@@ -5,7 +5,7 @@ running anything:
 
 ```
 data/
-  data-validation_set-V1.xlsx    development set (187 questions)
+  data-validation_set-V1.xlsx    development set
   regulation_content.xlsx        tax regulation corpus
 ```
 
